@@ -30,8 +30,8 @@
       <button class="submit-btn" type="submit">Continue</button>
       <div class="account">
         <p>You do not have an account ?</p>
-        <a href="#login">Create an account main</a>
-				<router-link to="/login">Go to Home</router-link>
+        <a href="#table">Create an account</a>
+				<!-- <router-link to="/login">Go to Home</router-link> -->
       </div>
     </form>
   </div>

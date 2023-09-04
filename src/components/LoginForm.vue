@@ -1,7 +1,9 @@
 <template>
 	 <div>
+<div class="shop-btn">
 
-<button class="shop">Login to shopper</button>
+	<button class="shop">Login to shopper</button>
+</div>
 <p>Please enter login information</p>
 <form>
 	<label for="email">Email</label>
@@ -19,12 +21,14 @@
 </template>
 <style>
 .right {
-	text-align: center;
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.shop-btn {
+	text-align: center;
 }
 .shop {
   border: 1px solid black;
@@ -32,6 +36,7 @@
   padding: 10px;
   color: black;
   background: white;
+	text-align: center;
 }
 form {
   display: flex;

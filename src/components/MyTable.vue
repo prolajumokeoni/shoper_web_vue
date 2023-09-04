@@ -15,6 +15,9 @@
 					<li>Favorites</li>
 					<li>Recently</li>
 				</ul>
+				<ul>
+
+				</ul>
 			</div>
 	</div>
 	<div class="right">
@@ -32,11 +35,10 @@ a {
 	color: black;
 }
 .left {
-	border: 1px solid black;
 	width: 15%;
 }
 .right {
-	border: 1px solid black;
+	border-right: 1px solid black;
 	width: 80%;
 }
 li {
