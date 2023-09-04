@@ -10,8 +10,50 @@
 	<input type="password" id="password" name="password" placeholder="Password" />
 	<p>Forgot your password?</p>
 	<button class="submit-btn" type="submit">Login with email</button>
-<p>You do not have an account ? </p>
-<a href="#about">Create an account</a>
+<div class="account">
+	 <p>You do not have an account ? </p>
+	 <a href="#about">Create an account</a>
+	</div>
 </form>
 </div>
 </template>
+<style>
+.right {
+	text-align: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shop {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  color: black;
+  background: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #a3a3a3;
+  width: 375px;
+}
+.submit-btn {
+  border-radius: 12px;
+  background: #000;
+  height: 50px;
+  color: white;
+}
+.account {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+</style>
